@@ -7,12 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Week5ObjC+CoreDataModel.h"
+#import "storage.h"
 
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) Event *detailItem;
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (strong, nonatomic) storage *detailItem;
+@property (weak, nonatomic) IBOutlet UILabel *schoolNameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *numOfTakersLabel;
+@property (weak, nonatomic) IBOutlet UILabel *readingScoreLabel;
+@property (weak, nonatomic) IBOutlet UILabel *mathScoreLabel;
+@property (weak, nonatomic) IBOutlet UILabel *writingScoreLabel;
 
 @end
+
 

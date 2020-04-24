@@ -21,9 +21,8 @@
     navigationController.topViewController.navigationItem.leftItemsSupplementBackButton = YES;
     splitViewController.delegate = self;
 
-    UINavigationController *masterNavigationController = splitViewController.viewControllers[0];
-    MasterViewController *controller = (MasterViewController *)masterNavigationController.topViewController;
-    controller.managedObjectContext = ((AppDelegate *)UIApplication.sharedApplication.delegate).persistentContainer.viewContext;
+
+ 
 }
 
 

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3A69E8FD24527C8300A25B1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A69E8FC24527C8300A25B1D /* AppDelegate.m */; };
-		3A69E90024527C8300A25B1D /* Week5ObjC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A69E8FE24527C8300A25B1D /* Week5ObjC.xcdatamodeld */; };
 		3A69E90324527C8300A25B1D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A69E90224527C8300A25B1D /* SceneDelegate.m */; };
 		3A69E90624527C8400A25B1D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A69E90524527C8400A25B1D /* MasterViewController.m */; };
 		3A69E90924527C8400A25B1D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A69E90824527C8400A25B1D /* DetailViewController.m */; };
@@ -18,6 +17,7 @@
 		3A69E91424527C9700A25B1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A69E91324527C9700A25B1D /* main.m */; };
 		3A69E91E24527C9800A25B1D /* Week5ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A69E91D24527C9800A25B1D /* Week5ObjCTests.m */; };
 		3A69E92924527C9800A25B1D /* Week5ObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A69E92824527C9800A25B1D /* Week5ObjCUITests.m */; };
+		3A69E93A2452826500A25B1D /* storage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A69E9392452826500A25B1D /* storage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		3A69E8F824527C8300A25B1D /* Week5ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week5ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A69E8FB24527C8300A25B1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3A69E8FC24527C8300A25B1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3A69E8FF24527C8300A25B1D /* Week5ObjC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Week5ObjC.xcdatamodel; sourceTree = "<group>"; };
 		3A69E90124527C8300A25B1D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		3A69E90224527C8300A25B1D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		3A69E90424527C8300A25B1D /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
@@ -59,6 +58,8 @@
 		3A69E92424527C9800A25B1D /* Week5ObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week5ObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A69E92824527C9800A25B1D /* Week5ObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week5ObjCUITests.m; sourceTree = "<group>"; };
 		3A69E92A24527C9800A25B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A69E9382452826500A25B1D /* storage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = storage.h; sourceTree = "<group>"; };
+		3A69E9392452826500A25B1D /* storage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = storage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +110,8 @@
 		3A69E8FA24527C8300A25B1D /* Week5ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				3A69E9382452826500A25B1D /* storage.h */,
+				3A69E9392452826500A25B1D /* storage.m */,
 				3A69E8FB24527C8300A25B1D /* AppDelegate.h */,
 				3A69E8FC24527C8300A25B1D /* AppDelegate.m */,
 				3A69E90124527C8300A25B1D /* SceneDelegate.h */,
@@ -122,7 +125,6 @@
 				3A69E90F24527C9700A25B1D /* LaunchScreen.storyboard */,
 				3A69E91224527C9700A25B1D /* Info.plist */,
 				3A69E91324527C9700A25B1D /* main.m */,
-				3A69E8FE24527C8300A25B1D /* Week5ObjC.xcdatamodeld */,
 			);
 			path = Week5ObjC;
 			sourceTree = "<group>";
@@ -278,9 +280,9 @@
 				3A69E90924527C8400A25B1D /* DetailViewController.m in Sources */,
 				3A69E90624527C8400A25B1D /* MasterViewController.m in Sources */,
 				3A69E8FD24527C8300A25B1D /* AppDelegate.m in Sources */,
+				3A69E93A2452826500A25B1D /* storage.m in Sources */,
 				3A69E90324527C8300A25B1D /* SceneDelegate.m in Sources */,
 				3A69E91424527C9700A25B1D /* main.m in Sources */,
-				3A69E90024527C8300A25B1D /* Week5ObjC.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,19 +597,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		3A69E8FE24527C8300A25B1D /* Week5ObjC.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3A69E8FF24527C8300A25B1D /* Week5ObjC.xcdatamodel */,
-			);
-			currentVersion = 3A69E8FF24527C8300A25B1D /* Week5ObjC.xcdatamodel */;
-			path = Week5ObjC.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 3A69E8F024527C8300A25B1D /* Project object */;
 }
